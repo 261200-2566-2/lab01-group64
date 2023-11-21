@@ -8,7 +8,6 @@ public class Main {
 
         System.out.print("How many number do you want?");
         int length = scanner.nextInt();
-
         int[] read = readIntergers(length , scanner);
 
         System.out.println("Intergers: "+ Arrays.toString(read));
